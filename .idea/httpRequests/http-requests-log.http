@@ -1,0 +1,28 @@
+GET https://books.google.com/ebooks?id=buc0AAAAMAAJ&dq=holmes&as_brr=4&source=webstore_bookcard
+Accept: application/json
+
+<> 2020-10-18T020019.200.html
+
+###
+
+GET https://books.google.com/ebooks
+Accept: application/json
+
+<> 2020-10-18T015940.200.html
+
+###
+
+GET https://books.google.com/ebooks
+Accept: application/json
+
+<> 2020-10-18T015906.200.html
+
+###
+
+GET https://httpbin.org/ip
+Accept: application/json
+
+<> 2020-10-18T015739.200.json
+
+###
+
