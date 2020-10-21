@@ -3,6 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="9f49ba05-fc66-4b21-8924-16b6fe058470" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/BookController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/BookController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/database.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/database.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -420,7 +424,7 @@
       <workItem from="1602878471901" duration="3637000" />
       <workItem from="1602969637439" duration="50998000" />
       <workItem from="1603251956189" duration="272000" />
-      <workItem from="1603252263913" duration="444000" />
+      <workItem from="1603252263913" duration="7990000" />
     </task>
     <servers />
   </component>
@@ -473,9 +477,10 @@
       <screen x="0" y="0" width="1360" height="728" />
     </state>
     <state x="377" y="173" key="IDE.errors.dialog/3280.0.1600.860/1360.0.1920.1080/0.0.1360.728@0.0.1360.728" timestamp="1603087607133" />
-    <state x="2143" y="298" key="NewPhpClassDialog" timestamp="1602971131438">
-      <screen x="1360" y="0" width="1920" height="1080" />
+    <state x="555" y="174" key="NewPhpClassDialog" timestamp="1603305430878">
+      <screen x="0" y="0" width="1360" height="728" />
     </state>
+    <state x="555" y="174" key="NewPhpClassDialog/3280.0.1600.860/1360.0.1920.1080/0.0.1360.728@0.0.1360.728" timestamp="1603305430878" />
     <state x="2143" y="298" key="NewPhpClassDialog/3280.0.1600.860/1360.0.1920.1080/0.0.1360.728@1360.0.1920.1080" timestamp="1602971131438" />
     <state x="205" y="117" width="992" height="543" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1603114179463">
       <screen x="0" y="0" width="1360" height="728" />

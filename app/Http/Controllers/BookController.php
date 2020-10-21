@@ -59,4 +59,25 @@ class BookController extends Controller
         $book = BookService::getById($id);
         return view('book', ['book' => $book, 'search' => $search]);
     }
+
+
+    public function saveBook(string $isbn){
+        /*
+         * $book = new Book;
+           $flight->isbn = $request->isbn;
+           $book->save();
+         * */
+    }
+
+    public function findAllBooks(){
+        /*
+         * $result = DB::table('book_user')
+            ->select('*')
+            ->where('user_id', '=', Auth::id())
+            ->where('book_id', '=', 1)
+            ->get();
+           return view('found', ['book' => $book]);
+         * */
+    }
+
 }
