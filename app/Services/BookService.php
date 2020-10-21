@@ -25,7 +25,7 @@ class BookService
     public function searchBooks(string $param)
     {
         try{
-            $service = resolve('Google_Client'); //$this->createService();
+            $service = resolve('Google_Client');
             $optParams = array(
                 'filter' => 'free-ebooks',
                 'q' => $param
