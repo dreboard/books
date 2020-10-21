@@ -44,8 +44,11 @@ class BookController extends Controller
      */
     public function searchBooks(Request $request)
     {
-        $books = BookService::searchBooks($request->input('search'));
-        return view('welcome', ['books' => $books, 'search' => $request->input('search')]);
+        if( $request->filled('search') ){
+            $books = BookService::searchBooks($request->input('search'));
+            return view('welcome', ['books' => $books, 'search' => $request->input('search')]);
+        }
+        return view('welcome');
     }
 
     /**
